@@ -86,12 +86,12 @@ public class Tree {
 
     private Node LRRotate(Node node) {
         node.setLeft(RRRotate(node.getLeft()));
-        return RRRotate(node);
+        return LLRotate(node);
     }
 
     private Node RLRotate(Node node) {
         node.setRight(LLRotate(node.getRight()));
-        return LLRotate(node);
+        return RRRotate(node);
     }
 
     /**
@@ -198,6 +198,8 @@ public class Tree {
         tree.insert(39);
         tree.printPretty();
         tree.insert(67);
+        tree.printPretty();
+        tree.delete(55);
         tree.printPretty();
         tree.delete(60);
         tree.printPretty();
