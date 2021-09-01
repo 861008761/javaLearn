@@ -96,10 +96,19 @@ public class Tree {
 
     /**
      * 平衡二叉树
+     * 后序遍历（左-右-中）方式对所有节点进行平衡，防止删除某个节点导致整棵树不平衡
      *
      * @param node
      */
     private Node rotate(Node node) {
+        // 防止删除根节点，一次旋转之后仍然不平衡的情况
+        if (null != node.getLeft()) {
+            node.setLeft(rotate(node.getLeft()));
+        }
+        if (null != node.getRight()) {
+            node.setRight(rotate(node.getRight()));
+        }
+
         if (getHeight(node.getLeft()) - getHeight(node.getRight()) >= 2) { // 左子树高于右子树
             if (getHeight(node.getLeft().getLeft()) > getHeight(node.getLeft().getRight())) { // LL型，进行一次LL旋转
                 node = LLRotate(node);
@@ -201,7 +210,7 @@ public class Tree {
         tree.printPretty();
         tree.delete(55);
         tree.printPretty();
-        tree.delete(60);
+        tree.delete(50);
         tree.printPretty();
     }
 }
