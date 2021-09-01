@@ -1,0 +1,128 @@
+DEBUG (2021-08-06 18:28:14,334) [io.netty.util.internal.logging.InternalLoggerFactory:45] - Using Log4J as the default logging framework
+DEBUG (2021-08-06 18:28:14,340) [io.netty.channel.MultithreadEventLoopGroup:43] - -Dio.netty.eventLoopThreads: 32
+DEBUG (2021-08-06 18:28:14,370) [io.netty.channel.nio.NioEventLoop:88] - -Dio.netty.noKeySetOptimization: false
+DEBUG (2021-08-06 18:28:14,372) [io.netty.channel.nio.NioEventLoop:89] - -Dio.netty.selectorAutoRebuildThreshold: 512
+DEBUG (2021-08-06 18:28:14,784) [io.netty.channel.DefaultChannelId:75] - -Dio.netty.machineId: 3c:7c:3f:2c:1c:b2:00:00 (auto-detected)
+DEBUG (2021-08-06 18:28:14,794) [io.netty.channel.DefaultChannelId:101] - -Dio.netty.processId: 10620 (auto-detected)
+DEBUG (2021-08-06 18:28:14,802) [io.netty.util.internal.ThreadLocalRandom:138] - -Dio.netty.initialSeedUniquifier: 0x906ce92ae3cf836d
+DEBUG (2021-08-06 18:28:14,810) [io.netty.channel.ChannelOutboundBuffer:55] - -Dio.netty.threadLocalDirectBufferSize: 65536
+DEBUG (2021-08-06 18:28:14,830) [io.netty.util.internal.PlatformDependent:317] - Platform: Windows
+DEBUG (2021-08-06 18:28:14,830) [io.netty.util.internal.PlatformDependent:447] - Java version: 8
+DEBUG (2021-08-06 18:28:14,830) [io.netty.util.internal.PlatformDependent:454] - -Dio.netty.noUnsafe: false
+DEBUG (2021-08-06 18:28:14,831) [io.netty.util.internal.PlatformDependent0:61] - java.nio.ByteBuffer.cleaner: available
+DEBUG (2021-08-06 18:28:14,832) [io.netty.util.internal.PlatformDependent0:80] - java.nio.Buffer.address: available
+DEBUG (2021-08-06 18:28:14,832) [io.netty.util.internal.PlatformDependent0:88] - sun.misc.Unsafe.theUnsafe: available
+DEBUG (2021-08-06 18:28:14,832) [io.netty.util.internal.PlatformDependent0:98] - sun.misc.Unsafe.copyMemory: available
+DEBUG (2021-08-06 18:28:14,832) [io.netty.util.internal.PlatformDependent0:138] - java.nio.Bits.unaligned: true
+DEBUG (2021-08-06 18:28:14,833) [io.netty.util.internal.PlatformDependent:481] - sun.misc.Unsafe: available
+DEBUG (2021-08-06 18:28:14,834) [io.netty.util.internal.PlatformDependent:559] - -Dio.netty.noJavassist: false
+DEBUG (2021-08-06 18:28:14,834) [io.netty.util.internal.PlatformDependent:571] - Javassist: unavailable
+DEBUG (2021-08-06 18:28:14,835) [io.netty.util.internal.PlatformDependent:572] - You don't have Javassist in your class path or you don't have enough permission to load dynamically generated classes.  Please check the configuration for better performance.
+DEBUG (2021-08-06 18:28:14,835) [io.netty.util.internal.PlatformDependent:76] - -Dio.netty.noPreferDirect: false
+DEBUG (2021-08-06 18:28:14,921) [io.netty.util.NetUtil:100] - Loopback interface: Software Loopback Interface 1
+DEBUG (2021-08-06 18:28:14,922) [io.netty.util.NetUtil:105] - Loopback address: /127.0.0.1 (primary)
+DEBUG (2021-08-06 18:28:14,922) [io.netty.util.NetUtil:108] - Loopback address: /0:0:0:0:0:0:0:1
+DEBUG (2021-08-06 18:28:24,394) [io.netty.util.internal.logging.InternalLoggerFactory:45] - Using Log4J as the default logging framework
+DEBUG (2021-08-06 18:28:24,399) [io.netty.channel.MultithreadEventLoopGroup:43] - -Dio.netty.eventLoopThreads: 32
+DEBUG (2021-08-06 18:28:24,430) [io.netty.channel.nio.NioEventLoop:88] - -Dio.netty.noKeySetOptimization: false
+DEBUG (2021-08-06 18:28:24,432) [io.netty.channel.nio.NioEventLoop:89] - -Dio.netty.selectorAutoRebuildThreshold: 512
+DEBUG (2021-08-06 18:28:24,846) [io.netty.channel.DefaultChannelId:75] - -Dio.netty.machineId: 3c:7c:3f:2c:1c:b2:00:00 (auto-detected)
+DEBUG (2021-08-06 18:28:24,853) [io.netty.channel.DefaultChannelId:101] - -Dio.netty.processId: 7260 (auto-detected)
+DEBUG (2021-08-06 18:28:24,855) [io.netty.util.internal.ThreadLocalRandom:138] - -Dio.netty.initialSeedUniquifier: 0x8ff1c53c383f2f82
+DEBUG (2021-08-06 18:28:24,867) [io.netty.channel.ChannelOutboundBuffer:55] - -Dio.netty.threadLocalDirectBufferSize: 65536
+DEBUG (2021-08-06 18:28:24,887) [io.netty.util.internal.PlatformDependent:317] - Platform: Windows
+DEBUG (2021-08-06 18:28:24,888) [io.netty.util.internal.PlatformDependent:447] - Java version: 8
+DEBUG (2021-08-06 18:28:24,888) [io.netty.util.internal.PlatformDependent:454] - -Dio.netty.noUnsafe: false
+DEBUG (2021-08-06 18:28:24,889) [io.netty.util.internal.PlatformDependent0:61] - java.nio.ByteBuffer.cleaner: available
+DEBUG (2021-08-06 18:28:24,889) [io.netty.util.internal.PlatformDependent0:80] - java.nio.Buffer.address: available
+DEBUG (2021-08-06 18:28:24,890) [io.netty.util.internal.PlatformDependent0:88] - sun.misc.Unsafe.theUnsafe: available
+DEBUG (2021-08-06 18:28:24,890) [io.netty.util.internal.PlatformDependent0:98] - sun.misc.Unsafe.copyMemory: available
+DEBUG (2021-08-06 18:28:24,890) [io.netty.util.internal.PlatformDependent0:138] - java.nio.Bits.unaligned: true
+DEBUG (2021-08-06 18:28:24,891) [io.netty.util.internal.PlatformDependent:481] - sun.misc.Unsafe: available
+DEBUG (2021-08-06 18:28:24,892) [io.netty.util.internal.PlatformDependent:559] - -Dio.netty.noJavassist: false
+DEBUG (2021-08-06 18:28:24,893) [io.netty.util.internal.PlatformDependent:571] - Javassist: unavailable
+DEBUG (2021-08-06 18:28:24,893) [io.netty.util.internal.PlatformDependent:572] - You don't have Javassist in your class path or you don't have enough permission to load dynamically generated classes.  Please check the configuration for better performance.
+DEBUG (2021-08-06 18:28:24,893) [io.netty.util.internal.PlatformDependent:76] - -Dio.netty.noPreferDirect: false
+DEBUG (2021-08-06 18:29:21,294) [io.netty.util.ResourceLeakDetector:79] - -Dio.netty.leakDetectionLevel: simple
+ WARN (2021-08-06 18:29:21,297) [io.netty.channel.DefaultChannelPipeline$TailHandler:1000] - An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:378)
+	at io.netty.buffer.UnpooledUnsafeDirectByteBuf.setBytes(UnpooledUnsafeDirectByteBuf.java:446)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:871)
+	at io.netty.buffer.WrappedByteBuf.writeBytes(WrappedByteBuf.java:641)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:208)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:119)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:485)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:452)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:346)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:794)
+	at java.lang.Thread.run(Thread.java:748)
+DEBUG (2021-08-06 18:30:22,847) [io.netty.util.internal.logging.InternalLoggerFactory:45] - Using Log4J as the default logging framework
+DEBUG (2021-08-06 18:30:22,852) [io.netty.channel.MultithreadEventLoopGroup:43] - -Dio.netty.eventLoopThreads: 32
+DEBUG (2021-08-06 18:30:22,883) [io.netty.channel.nio.NioEventLoop:88] - -Dio.netty.noKeySetOptimization: false
+DEBUG (2021-08-06 18:30:22,885) [io.netty.channel.nio.NioEventLoop:89] - -Dio.netty.selectorAutoRebuildThreshold: 512
+DEBUG (2021-08-06 18:30:23,320) [io.netty.channel.DefaultChannelId:75] - -Dio.netty.machineId: 3c:7c:3f:2c:1c:b2:00:00 (auto-detected)
+DEBUG (2021-08-06 18:30:23,327) [io.netty.channel.DefaultChannelId:101] - -Dio.netty.processId: 17720 (auto-detected)
+DEBUG (2021-08-06 18:30:23,335) [io.netty.util.internal.ThreadLocalRandom:138] - -Dio.netty.initialSeedUniquifier: 0x7200e730c5a91eb2
+DEBUG (2021-08-06 18:30:23,343) [io.netty.channel.ChannelOutboundBuffer:55] - -Dio.netty.threadLocalDirectBufferSize: 65536
+DEBUG (2021-08-06 18:30:23,363) [io.netty.util.internal.PlatformDependent:317] - Platform: Windows
+DEBUG (2021-08-06 18:30:23,364) [io.netty.util.internal.PlatformDependent:447] - Java version: 8
+DEBUG (2021-08-06 18:30:23,364) [io.netty.util.internal.PlatformDependent:454] - -Dio.netty.noUnsafe: false
+DEBUG (2021-08-06 18:30:23,365) [io.netty.util.internal.PlatformDependent0:61] - java.nio.ByteBuffer.cleaner: available
+DEBUG (2021-08-06 18:30:23,365) [io.netty.util.internal.PlatformDependent0:80] - java.nio.Buffer.address: available
+DEBUG (2021-08-06 18:30:23,365) [io.netty.util.internal.PlatformDependent0:88] - sun.misc.Unsafe.theUnsafe: available
+DEBUG (2021-08-06 18:30:23,366) [io.netty.util.internal.PlatformDependent0:98] - sun.misc.Unsafe.copyMemory: available
+DEBUG (2021-08-06 18:30:23,366) [io.netty.util.internal.PlatformDependent0:138] - java.nio.Bits.unaligned: true
+DEBUG (2021-08-06 18:30:23,367) [io.netty.util.internal.PlatformDependent:481] - sun.misc.Unsafe: available
+DEBUG (2021-08-06 18:30:23,367) [io.netty.util.internal.PlatformDependent:559] - -Dio.netty.noJavassist: false
+DEBUG (2021-08-06 18:30:23,368) [io.netty.util.internal.PlatformDependent:571] - Javassist: unavailable
+DEBUG (2021-08-06 18:30:23,368) [io.netty.util.internal.PlatformDependent:572] - You don't have Javassist in your class path or you don't have enough permission to load dynamically generated classes.  Please check the configuration for better performance.
+DEBUG (2021-08-06 18:30:23,368) [io.netty.util.internal.PlatformDependent:76] - -Dio.netty.noPreferDirect: false
+DEBUG (2021-08-06 18:30:23,455) [io.netty.util.NetUtil:100] - Loopback interface: Software Loopback Interface 1
+DEBUG (2021-08-06 18:30:23,457) [io.netty.util.NetUtil:105] - Loopback address: /127.0.0.1 (primary)
+DEBUG (2021-08-06 18:30:23,457) [io.netty.util.NetUtil:108] - Loopback address: /0:0:0:0:0:0:0:1
+DEBUG (2021-08-06 18:30:48,920) [io.netty.util.internal.logging.InternalLoggerFactory:45] - Using Log4J as the default logging framework
+DEBUG (2021-08-06 18:30:48,924) [io.netty.channel.MultithreadEventLoopGroup:43] - -Dio.netty.eventLoopThreads: 32
+DEBUG (2021-08-06 18:30:48,956) [io.netty.channel.nio.NioEventLoop:88] - -Dio.netty.noKeySetOptimization: false
+DEBUG (2021-08-06 18:30:48,958) [io.netty.channel.nio.NioEventLoop:89] - -Dio.netty.selectorAutoRebuildThreshold: 512
+DEBUG (2021-08-06 18:30:49,361) [io.netty.channel.DefaultChannelId:75] - -Dio.netty.machineId: 3c:7c:3f:2c:1c:b2:00:00 (auto-detected)
+DEBUG (2021-08-06 18:30:49,367) [io.netty.channel.DefaultChannelId:101] - -Dio.netty.processId: 14060 (auto-detected)
+DEBUG (2021-08-06 18:30:49,369) [io.netty.util.internal.ThreadLocalRandom:138] - -Dio.netty.initialSeedUniquifier: 0xdf14804503bbc1b6
+DEBUG (2021-08-06 18:30:49,381) [io.netty.channel.ChannelOutboundBuffer:55] - -Dio.netty.threadLocalDirectBufferSize: 65536
+DEBUG (2021-08-06 18:30:49,401) [io.netty.util.internal.PlatformDependent:317] - Platform: Windows
+DEBUG (2021-08-06 18:30:49,401) [io.netty.util.internal.PlatformDependent:447] - Java version: 8
+DEBUG (2021-08-06 18:30:49,401) [io.netty.util.internal.PlatformDependent:454] - -Dio.netty.noUnsafe: false
+DEBUG (2021-08-06 18:30:49,402) [io.netty.util.internal.PlatformDependent0:61] - java.nio.ByteBuffer.cleaner: available
+DEBUG (2021-08-06 18:30:49,402) [io.netty.util.internal.PlatformDependent0:80] - java.nio.Buffer.address: available
+DEBUG (2021-08-06 18:30:49,403) [io.netty.util.internal.PlatformDependent0:88] - sun.misc.Unsafe.theUnsafe: available
+DEBUG (2021-08-06 18:30:49,403) [io.netty.util.internal.PlatformDependent0:98] - sun.misc.Unsafe.copyMemory: available
+DEBUG (2021-08-06 18:30:49,403) [io.netty.util.internal.PlatformDependent0:138] - java.nio.Bits.unaligned: true
+DEBUG (2021-08-06 18:30:49,404) [io.netty.util.internal.PlatformDependent:481] - sun.misc.Unsafe: available
+DEBUG (2021-08-06 18:30:49,405) [io.netty.util.internal.PlatformDependent:559] - -Dio.netty.noJavassist: false
+DEBUG (2021-08-06 18:30:49,405) [io.netty.util.internal.PlatformDependent:571] - Javassist: unavailable
+DEBUG (2021-08-06 18:30:49,406) [io.netty.util.internal.PlatformDependent:572] - You don't have Javassist in your class path or you don't have enough permission to load dynamically generated classes.  Please check the configuration for better performance.
+DEBUG (2021-08-06 18:30:49,406) [io.netty.util.internal.PlatformDependent:76] - -Dio.netty.noPreferDirect: false
+ INFO (2021-08-06 18:30:50,967) [com.mylovin.netty.rpc.client.Main:18] - hhhh
+ INFO (2021-08-06 18:30:50,967) [com.mylovin.netty.rpc.client.Main:19] - hhhh
+DEBUG (2021-08-06 18:30:50,990) [io.netty.util.ResourceLeakDetector:79] - -Dio.netty.leakDetectionLevel: simple
+DEBUG (2021-08-06 18:30:50,996) [io.netty.util.ResourceLeakDetector:79] - -Dio.netty.leakDetectionLevel: simple
+ WARN (2021-08-06 18:31:03,516) [io.netty.channel.DefaultChannelPipeline$TailHandler:1000] - An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:378)
+	at io.netty.buffer.UnpooledUnsafeDirectByteBuf.setBytes(UnpooledUnsafeDirectByteBuf.java:446)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:871)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:208)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:119)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:485)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:452)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:346)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:794)
+	at java.lang.Thread.run(Thread.java:748)

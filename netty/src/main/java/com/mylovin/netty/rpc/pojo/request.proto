@@ -1,0 +1,12 @@
+syntax = "proto3";
+package netty;
+option java_package = "com.mylovin.netty.rpc.pojo";
+option java_outer_classname = "RequestProto";
+import "google/protobuf/any.proto";
+
+message Request {
+    string clazz = 1;
+    string method = 2;
+    string paramTypes = 3;
+    string args = 4;
+}
