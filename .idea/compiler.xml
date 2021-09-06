@@ -7,11 +7,12 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="jvm" />
+        <module name="designpattern" />
+        <module name="mybatis" />
+        <module name="rmq" />
         <module name="netty_sourcecode" />
         <module name="algo" />
-        <module name="mybatis" />
         <module name="netty" />
-        <module name="rmq" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="8" />

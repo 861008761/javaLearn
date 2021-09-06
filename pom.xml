@@ -15,6 +15,7 @@
         <module>netty</module>
         <module>jvm</module>
         <module>rmq</module>
+        <module>designpattern</module>
     </modules>
 
     <dependencies>
