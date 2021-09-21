@@ -7,7 +7,10 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="jvm" />
+        <module name="spring" />
         <module name="designpattern" />
+        <module name="java" />
+        <module name="seckill" />
         <module name="mybatis" />
         <module name="rmq" />
         <module name="netty_sourcecode" />
@@ -21,6 +24,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="mybatis" options="-parameters" />
       <module name="rmq" options="-parameters" />
+      <module name="seckill" options="-parameters" />
     </option>
   </component>
 </project>

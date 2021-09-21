@@ -16,6 +16,9 @@
         <module>jvm</module>
         <module>rmq</module>
         <module>designpattern</module>
+        <module>spring</module>
+        <module>java</module>
+        <module>seckill</module>
     </modules>
 
     <dependencies>
