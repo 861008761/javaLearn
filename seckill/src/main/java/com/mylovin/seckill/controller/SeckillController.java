@@ -314,4 +314,16 @@ public class SeckillController {
         }
         return msg;
     }
+
+    /**
+     * 直接调用lua脚本，最快
+     *
+     * @return
+     */
+    @RequestMapping("/submitTen")
+    public String submitTen() {
+        String msg = "";
+
+        return msg;
+    }
 }
