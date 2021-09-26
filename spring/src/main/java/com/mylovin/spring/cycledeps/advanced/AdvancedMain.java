@@ -20,22 +20,37 @@ import java.util.function.Predicate;
 import java.util.function.UnaryOperator;
 
 public class AdvancedMain {
+    // 模拟beanFactory作用，存储所有bean的RootBeanDefinition结构
     private Map<String, RootBeanDefinition> beanDefinitionMap = new ConcurrentHashMap<>();
-    private final Map<String, Set<String>> dependentBeanMap = new ConcurrentHashMap<>(64);
-    private final Map<String, Set<String>> dependenciesForBeanMap = new ConcurrentHashMap<>(64);
-    private final Set<String> alreadyCreated = Collections.newSetFromMap(new ConcurrentHashMap<>(256));
-    private final Map<String, Object> factoryBeanObjectCache = new ConcurrentHashMap<>(16);
+
     /**
-     * 加入一级缓存，解决第一种情况的循环依赖
+     * 一级缓存
      */
     private Map<String, Object> singletonObjects = new ConcurrentHashMap<>();
 
+    /**
+     * 二级缓存
+     */
     private final Map<String, Object> earlySingletonObjects = new ConcurrentHashMap<>(16);
 
+    /**
+     * 三级缓存
+     */
     private final Map<String, MyObjectFactory<?>> singletonFactories = new HashMap<>(16);
 
+    /**
+     * 当前正在创建中的单例名称
+     */
     private final Set<String> singletonsCurrentlyInCreation =
             Collections.newSetFromMap(new ConcurrentHashMap<>(16));
+
+    private final Map<String, Set<String>> dependentBeanMap = new ConcurrentHashMap<>(64);
+
+    private final Map<String, Set<String>> dependenciesForBeanMap = new ConcurrentHashMap<>(64);
+
+    private final Set<String> alreadyCreated = Collections.newSetFromMap(new ConcurrentHashMap<>(256));
+
+    private final Map<String, Object> factoryBeanObjectCache = new ConcurrentHashMap<>(16);
 
     private final Set<String> registeredSingletons = new LinkedHashSet<>(256);
 
@@ -59,6 +74,10 @@ public class AdvancedMain {
 
     private final Map<Class<?>, Class<? extends PropertyEditor>> customEditors = new HashMap<>(4);
 
+    /**
+     * 规范化
+     * canonicalName -> resolvedName
+     */
     private final Map<String, String> aliasMap = new ConcurrentHashMap<>(16);
 
     /**
@@ -130,6 +149,7 @@ public class AdvancedMain {
                             "Singleton bean creation not allowed while singletons of this factory are in destruction " +
                                     "(Do not request a bean from a BeanFactory in a destroy method implementation!)");
                 }
+                // 这一步很重要，singletonsCurrentlyInCreation 标记正在创建中的bean
                 beforeSingletonCreation(beanName);
                 boolean newSingleton = false;
                 singletonObject = singletonFactory.getObject();
@@ -190,12 +210,6 @@ public class AdvancedMain {
         return BeanUtils.instantiateClass(constructorToUse);
     }
 
-    public AccessControlContext getAccessControlContext() {
-        return (this.securityContextProvider != null ?
-                this.securityContextProvider.getAccessControlContext() :
-                AccessController.getContext());
-    }
-
     protected boolean isActuallyInCreation(String beanName) {
         return isSingletonCurrentlyInCreation(beanName);
     }
@@ -239,13 +253,7 @@ public class AdvancedMain {
     protected BeanWrapper instantiateBean(String beanName, RootBeanDefinition mbd) {
         try {
             Object beanInstance;
-            if (System.getSecurityManager() != null) {
-                beanInstance = AccessController.doPrivileged(
-                        (PrivilegedAction<Object>) () -> instantiate(mbd, beanName),
-                        getAccessControlContext());
-            } else {
-                beanInstance = instantiate(mbd, beanName);
-            }
+            beanInstance = instantiate(mbd, beanName);
             BeanWrapper bw = new BeanWrapperImpl(beanInstance);
             initBeanWrapper(bw);
             return bw;
